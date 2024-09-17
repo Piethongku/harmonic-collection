@@ -1,0 +1,223 @@
+.container{
+    width: 350px;
+    height: 500px;
+    perspective: 800px;
+}
+
+
+.container:hover > .card{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+
+.card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+
+.front , .back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 2rem;
+    box-shadow: 0px 1px 1px 0px rgb(122, 96, 8);
+}
+
+
+.front{
+    background-image: url(/entry-2/PIC/Undominant_cardskill2.jpg);
+}
+
+
+.back{
+    background-color: #ffe96f;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+
+.card_h2{
+    font-family: "Zeyada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    text-wrap: wrap;
+}
+
+
+.card_p{
+    font-family: "Walter Turncoat", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    padding: 0px 3px 0px 3px;
+    text-wrap: wrap;
+}
+
+
+.difficulty_p {
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #e74a23;
+}
+
+
+.message_box_container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.message_box{
+    position: relative;
+    display: flex;
+	background-color: #fff;
+    margin-right: 160px;
+    width: 500px;
+    height: 250px;
+	padding: 15px 20px;
+	font-size: 1.25em;
+	border-radius: 1rem;
+    box-shadow:	0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+}
+  
+
+.message_box::before{
+    content:'';
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 50%;
+	left: -24px;
+    transform: rotate(270deg);
+	border: .75rem solid transparent;
+	border-bottom-color: #fff;
+	filter: drop-shadow(0 -0.06px 1px rgba(0, 0, 0, .1));
+}
+  
+
+.text_message_box{
+    font-family: "Walter Turncoat", cursive;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.review_here {
+  background-color: white;
+  color: rgb(19, 19, 19);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.review_here:hover {
+    color: rgb(255, 93, 19);
+}
+
+
+.p_under_review{
+    color: #000ba0;
+}
+
+
+.highlight{
+    color: #e74a23;
+    font-style: italic;
+    background-color: rgb(232, 255, 127);
+    font-size: 20px;
+}
+
+
+.highlight:hover {
+    cursor: pointer;
+    transform: scale(2.5rem);
+}
+
+
+.highlight2{
+    color: rgb(255, 82, 111);
+}
+
+
+.highlight3:hover{
+    color: #61e723;
+}
+
+
+#container {
+    width: 100%;
+    height: 2.5rem;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    background: hwb(61 73% 0%), 100%;
+    color: #fff6c1;
+    margin-bottom: 40px;
+}
+
+
+#container .scroll {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    white-space: nowrap;
+    animation: loop 15s linear infinite;
+}
+
+
+@keyframes loop {
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(-50%);}
+}
+.item {
+    display: flex;
+    align-items: center;
+    gap: 0.02rem;
+    color: #220f00;
+    font-size: 17px;
+    background-color: #ffffff;
+    padding: 0.3rem 0rem;
+    margin: 0%;
+    border-radius: 0.4rem;
+    white-space: nowrap;
+}
+
+
+button{
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    background: aliceblue;
+    color: black;
+    box-shadow: 10px rgb(10, 11, 12) translateY(2.5px);
+    font-family: "Walter Turncoat", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+button:active {
+    box-shadow: none;
+    transform: translateY(2.5px);
+}
