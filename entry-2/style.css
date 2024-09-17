@@ -113,6 +113,17 @@
     position: relative;
 }
 
+.review_here:hover{
+    .message_under_review{
+        display: block;
+    }
+}
+
+
+.message_box:hover {
+    background-color: hsl(56, 100%, 81%) 100%, 81%;
+}
+
 
 .review_here {
   background-color: white;
@@ -128,7 +139,8 @@
 }
 
 
-.p_under_review{
+.message_under_review{
+    display: none;
     color: #000ba0;
 }
 
