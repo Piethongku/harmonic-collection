@@ -120,11 +120,6 @@
 }
 
 
-.message_box:hover {
-    background-color: hsl(56, 100%, 81%) 100%, 81%;
-}
-
-
 .review_here {
   background-color: white;
   color: rgb(19, 19, 19);
