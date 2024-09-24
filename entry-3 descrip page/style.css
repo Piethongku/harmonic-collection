@@ -1,0 +1,132 @@
+.Heading{
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  justify-content: center;
+  font-size: 90px;
+  text-wrap: wrap;
+  margin-top: 2px;
+}
+
+
+.P{
+    font-style: italic;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 28px
+}
+
+
+.P2{
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 20px;
+}
+
+
+.highlight{
+    background-color: yellow;
+    font-style: italic;
+}
+
+
+.active:hover{
+    cursor: pointer;
+    color: #0e3aff
+}
+
+
+.P3{
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 20px;
+}
+
+
+.P4{
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.P5{
+    font-style: italic;
+    justify-content: center;
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+.Box{
+    margin-top: 10px;
+}
+
+
+.BoxInner{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+.container{
+    margin-top: 8px;
+    display: flexbox;
+    width: 100%;
+}
+
+
+.click_me:hover{
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+button{
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    background: aliceblue;
+    color: black;
+    box-shadow: 10px rgb(10, 11, 12) translateY(2.5px);
+    font-family: "Walter Turncoat", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 100px;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(2.5px);
+}

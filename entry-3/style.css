@@ -1,3 +1,102 @@
+.Box{
+    margin-top: 10px;
+}
+
+
+.BoxInner{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+.container{
+    margin-top: 8px;
+    display: flexbox;
+    width: 100%;
+}
+
+
+.click_me:hover{
+    cursor: pointer;
+
+}
+
+.body_flex{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 5em;
+    
+
+}
+
+
+img {
+    margin: auto;
+    width: 100%;
+}
+
+
+.Undominant_Newspaper{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.Tiktokscroll{
+    flex-basis: 500px;
+    width: 18%;
+    margin-top: 30%;
+    margin-right: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-align: right;
+
+}
+
+
+.Tiktokscroll2{
+    margin-top: 50px;
+    justify-self: right;
+    width: 40%;
+    margin-right: 60px;
+}
+
+
+.Tiktokscroll3{
+    margin-top: 570%;
+    width: 20%;
+}
+
+
+.paragraph{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 160px;
+    text-wrap: wrap;
+    overflow-wrap: break-word;
+    text-align: left;
+}
+
+
+.paragraph2{
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    font-style: italic;
+    margin-top: 250%;
+}
+
+
+
+
+
 button{
     padding: 15px 25px;
     font-size: 18px;
