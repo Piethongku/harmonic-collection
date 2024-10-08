@@ -42,3 +42,93 @@ body {
 p{
   letter-spacing: 0.5px;
 }
+
+
+.border{
+  background-color:lightskyblue;
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+  border-color: beige;
+  border-width: 50px;
+  box-sizing: border-box;
+  display: flex;
+
+}
+  
+
+.gray{
+  width: 90%;
+  height: 90%;
+  background-color: lightgray;
+  margin-left: 5%;
+  margin-top: 5%;
+  align-items: center;
+}
+
+
+.white{
+  width: 60%;
+  height: 60%;
+  background-color: white;
+  align-items: center;
+  margin-left: 15%;
+  margin-top: 15%;
+  padding: 20px;
+
+}
+
+.yellow{
+  width: 60%;
+  height: 60%;
+  background-color: yellow;
+  margin-left: 20%;
+  margin-top: 20%;
+  align-items: center;
+}
+
+
+.border2{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  margin-top: 5%;
+  margin-left: 50%;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box1{
+  background-color:rgb(247, 247, 247);
+  width: 20%;
+  height:30%;
+  align-items: flex-end;
+  margin-right: 30px;
+
+}
+
+.box2{
+  background-color: rgb(203, 50, 43);
+  width: 75%;
+  height: 75%;
+}
+
+.box3{
+  background-color: rgb(247, 247, 247);
+  width: 20%;
+  height: 40%;
+  margin-right: 80%;
+  translate: 0 -220px;
+
+}
+
+
+.box4{
+  background-color: rgb(38, 91, 151);
+  width: 20%;
+  height: 26%;
+  translate: -240px -186px;
+}
