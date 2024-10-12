@@ -90,10 +90,177 @@
     font-family: "Zeyada", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     align-items: center;
     justify-content: center;
-    margin-left: 38%;
+    margin-left: 33%;
     margin-top: 15%;
   }
 
+
+.P3{
+  font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-items: center;
+    margin-left: 15%;
+    margin-top: 0%;
+    padding: 0%;
+
+}
+
+.message_input{
+  justify-content: center;
+  margin-left: 44%;
+  margin-top: 5%;
+
+}
+
+.Answer_instruction{
+  font-family: "Zeyada", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7rem;
+
+}
+
+
+.H2{
+  font-family: "Zeyada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    position: absolute;
+    animation-name: run linear infinite;
+    animation-duration: 6s;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 6s;
+    flex-wrap: nowrap;
+}
+
+@keyframes run{
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 67%;
+  }
+  100% {
+    left: 0;    
+  }
+}
+
+
+@-webkit-keyframes run {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0;    
+  }
+}
+
+
+.H3{
+  font-family: "Zeyada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    position: absolute;
+    animation-name: run2 linear infinite;
+    animation-duration: 6s;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run2;
+    -webkit-animation-duration: 6s;
+    flex-wrap: nowrap;
+}
+
+@keyframes run2{
+  0% {
+    right: 0;
+  }
+  50% {
+    right: 67%;
+  }
+  100% {
+    right: 0;    
+  }
+}
+
+
+@-webkit-keyframes run2 {
+  0% {
+    right: 0;
+  }
+  50% {
+    right: 100%;
+  }
+  100% {
+    right: 0;    
+  }
+}
+
+.P4{
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    margin-top: 25%;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+
+
+.highlight{
+  background-color: rgb(255, 241, 110);
+}
+
+.italic{
+  font-style: italic;
+}
+
+
+.P5{
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  margin-top: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+
+}
+
+
+button{
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  background: aliceblue;
+  color: black;
+  box-shadow: 10px rgb(10, 11, 12) translateY(2.5px);
+  font-family: "Walter Turncoat", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(2.5px);
+}
