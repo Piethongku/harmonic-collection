@@ -1,0 +1,99 @@
+.Logo{
+    animation-name: Move;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Move {
+    0% {left: 0rem}
+    100% {left: 60rem}
+}
+
+@-webkit-keyframes Move {
+    0% { left: 0px; }
+    100% { left: 800px; }
+}
+
+
+.P1{
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-items: center;
+    margin-left: 43%;
+
+}
+
+.P2{
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-items: center;
+    margin-left: 39%;
+    margin-top: 2px;
+
+}
+
+
+
+.scope {
+    position: relative;
+    width: 233px;
+    height: 333px;
+    transform-style: preserve-3d;
+    animation: slid 20s linear infinite;
+    align-items: center;
+    margin-left: 43%;
+    margin-top: 9%;
+  }
+  
+  .scope span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 90deg)) translateZ(250px);
+    align-items: center;
+  }
+  .scope span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 1.5s;
+  }
+  .scope span:hover img {
+    transform: translateY(-50px) scale(1);
+  }
+  @keyframes slid {
+    0% {
+      transform: perspective(1000px) rotateY(0deg);
+    }
+    100% {
+      transform: perspective(1000px) rotateY(360deg);
+    }
+  }
+  
+
+  .H1{
+    font-family: "Zeyada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 38%;
+    margin-top: 15%;
+  }
+
