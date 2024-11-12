@@ -1,0 +1,40 @@
+{
+    "name": "Pie",
+    "hobbies": [
+        "walking",
+        "music",
+        "doodling",
+        "movies"
+    ],
+    "favoriteSongs": [
+        {
+            "Artistname": "Bruno Major",
+            "SongName": [
+                "Columbo",
+                "old-fashioned friend"
+            ]
+        },
+        {
+            "Artistname": "Berlioz",
+            "SongName": "nyc in 1940"
+        },
+        {
+            "Artistname": "wave to earth",
+            "SongName": [
+                "seasons",
+                "love"
+            ]
+        }
+    ],
+    "favouriteMovies": [
+        "We live in time",
+        "LaLaland",
+        "Doctor House M.D.",
+        "A Man called Otto",
+        "Perfect Days"
+    ]
+}
+
+
+
+

@@ -1,0 +1,184 @@
+.difficulty{
+    font-family: "Archivo Narrow", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+  }
+
+
+
+.h1{
+  font-family: "Seaweed Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8rem;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-left: 37%;
+  margin-bottom: 0%;
+
+}
+
+
+.h2{
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 570;
+  font-style: normal;
+  font-size: 6rem;
+  justify-content: center;
+  margin-left: 37%;
+  padding-top: 0%;
+  transform: translateY(-3rem);
+  
+
+}
+
+
+.Challenge{
+  font-family: "Zeyada", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+}
+
+
+.Description{
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.5em;
+  height: 3em;
+  overflow: hidden;
+  width: 300px;
+  line-height: 18pt;
+  margin-left: 3%;
+}
+
+
+.Description2{
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: red;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+
+.button {
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 570;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  height: 65px;
+  width: 185px;
+  line-height: 65px;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 2px;
+  user-select: none;
+  background: #95f56f;
+  transition: background 0.05s linear;
+  transition: all .05s linear;
+  margin-top: 5%;
+
+}
+
+
+.button2 {
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 570;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  height: 65px;
+  width: 185px;
+  line-height: 65px;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 2px;
+  user-select: none;
+  background: #99eeff;
+  transition: background 0.05s linear;
+  transition: all .05s linear;
+  margin-top: 5%;
+
+}
+
+
+.button3{
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 570;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  height: 65px;
+  width: 185px;
+  line-height: 65px;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 2px;
+  user-select: none;
+  background: #ffc3e7;
+  transition: background 0.05s linear;
+  transition: all .05s linear;
+  margin-top: 5%;
+
+}
+
+
+.button:active {
+  box-shadow: 2px 2px 2px #777;
+  transform: translateY(3px);
+}
+
+
+.button2:active {
+  box-shadow: 2px 2px 2px #777;
+  transform: translateY(3px);
+}
+
+
+
+.button3:active {
+  box-shadow: 2px 2px 2px #777;
+  transform: translateY(3px);
+}
+
+
+
+
+
+
+button{
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    background: aliceblue;
+    color: black;
+    box-shadow: 10px rgb(10, 11, 12) translateY(2.5px);
+    font-family: "Walter Turncoat", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(2.5px);
+}
+
+
