@@ -1,0 +1,142 @@
+.difficulty{
+    font-family: "Archivo Narrow", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+  }
+
+
+
+.h1{
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-left: 4em;
+  margin-bottom: 0%;
+  margin-top: 30px;
+
+}
+
+
+.h2{
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 5.5rem;
+  justify-content: center;
+  margin-left: 5.4em;
+  padding-top: 0%;
+  transform: translateY(-3rem);
+  
+
+}
+
+
+.Description{
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-wrap: wrap;
+  padding: 0px 2rem  0px 2rem;
+  margin-top: 2em;
+}
+
+
+.Description2{
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  font-style: italic;
+  color: darkcyan;
+  display: flex;
+  margin-top: 1em;
+  margin-left: 24em;
+}
+
+
+.Description3{
+  font-family: "Zeyada", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  transform: translate(0em 10em);
+}
+
+
+
+img{
+  max-width: 300px;
+  max-height: 450px;
+}
+
+.img2{
+  max-width: 300px;
+  max-height: 450px;
+}
+
+
+.container{
+  margin-top: 40%;
+}
+
+.reveal{
+  width: 300px;
+  height: 450px;
+	float:left;
+  margin: 24px;
+
+}
+
+
+.reveal > img{
+	position:absolute;
+}
+
+
+.reveal > .img2{
+	clip:rect(0px, 150px, 450px, 0px); /* top, right, bottom, left */ 
+}
+
+
+.reveal > .activator{
+	position:absolute;
+  width: 300px;
+  height: 450px;
+	opacity:0;
+	cursor: e-resize;
+
+
+
+
+
+
+
+
+button{
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    background: aliceblue;
+    color: black;
+    box-shadow: 10px rgb(10, 11, 12) translateY(2.5px);
+    font-family: "Walter Turncoat", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(2.5px);
+}
+
+
