@@ -184,9 +184,28 @@ h2{
 }
 
 
+.TaDa{
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-left: 45%;
+  margin-bottom: 0%;
+  margin-top: 13%;
+
+}
 
 
-
+.image img {
+  display: block;
+  width: 400px; 
+  height: 400px;
+  justify-content: center;
+  margin-left: 37%;
+}
 
 
 
