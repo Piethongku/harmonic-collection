@@ -1,7 +1,38 @@
+
+
+h1{
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.5rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 38%;
+    margin-bottom: 0%;
+    margin-top: 30px;
+  
+  }
+  
+  
+  h2{
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 5rem;
+    justify-content: center;
+    margin-left: 36%;
+    margin-top: 0;
+    padding-top: 0%;
+    
+  }
+
+
 .container{
     width: 350px;
     height: 500px;
     perspective: 800px;
+    margin-top: 20%;
 }
 
 
@@ -74,6 +105,7 @@
 .message_box_container{
     display: flex;
     flex-direction: column;
+    margin-top: 10%;
 }
 
 
@@ -180,33 +212,6 @@
 }
 
 
-#container .scroll {
-    background: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    white-space: nowrap;
-    animation: loop 15s linear infinite;
-}
-
-
-@keyframes loop {
-    0% {transform: translateX(0%);}
-    100% {transform: translateX(-50%);}
-}
-.item {
-    display: flex;
-    align-items: center;
-    gap: 0.02rem;
-    color: #220f00;
-    font-size: 17px;
-    background-color: #ffffff;
-    padding: 0.3rem 0rem;
-    margin: 0%;
-    border-radius: 0.4rem;
-    white-space: nowrap;
-}
 
 
 button{
