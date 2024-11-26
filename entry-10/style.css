@@ -1,0 +1,214 @@
+.difficulty{
+    font-family: "Archivo Narrow", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+  }
+
+
+
+.h1{
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-left: 40%;
+  margin-bottom: 0%;
+  margin-top: 30px;
+
+}
+
+
+.h2{
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 5.5rem;
+  justify-content: center;
+  margin-left: 30%;
+  padding-top: 0%;
+  transform: translateY(-3rem);
+  
+}
+
+
+#SmallSize{
+  font-size: 2rem;
+}
+
+
+h3{
+  font-family: "Walter Turncoat", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1{
+  font-family: "Walter Turncoat", cursive;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+
+.ingredients-list li {
+  font-family: "Walter Turncoat", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.steps-list li {
+  font-family: "Walter Turncoat", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.generate-recipe-botton{
+  display: block;
+  justify-content: center;
+  margin: 0 auto; 
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 35px;
+  outline: none;
+  background: rgb(243, 255, 71);
+  color: black;
+  box-shadow: 0px 0px 0px;
+  transition: all 0.3s ease;
+}
+
+
+
+.Description{
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-wrap: wrap;
+  padding: 0px 2rem  0px 2rem;
+  margin-top: 2em;
+}
+
+
+.Description2{
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  font-style: italic;
+  color: darkcyan;
+  display: flex;
+  margin-top: 1em;
+  margin-left: 24em;
+}
+
+
+.Description3{
+  font-family: "Zeyada", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  transform: translate(0em 10em);
+}
+
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #FAFAFA;
+}
+
+/* transition height change */
+.flickity-viewport {
+  transition: height 0.2s;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: auto;
+  margin-right: 10px;
+  background: #fff;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  overflow: hidden;
+}
+
+.carousel-cell img {
+  width: 100%; 
+  height: auto; 
+  display: block;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+
+h2{
+  font-size: 2.5rem;
+  font-family: "Walter Turncoat", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10%;
+}
+
+
+
+.Description4{
+ font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-wrap: wrap;
+  padding: 0px 2rem  0px 2rem;
+}
+
+
+
+
+
+
+
+
+ button{ 
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  background: aliceblue;
+  color: black;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: "Walter Turncoat", cursive;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.3s ease;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(2.5px);
+}
+
+

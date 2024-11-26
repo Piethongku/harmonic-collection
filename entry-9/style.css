@@ -84,6 +84,7 @@ img{
 
 .container{
   margin-top: 40%;
+  padding-bottom: 5em;
 }
 
 .reveal{
@@ -132,6 +133,7 @@ button{
     font-family: "Walter Turncoat", cursive;
     font-weight: 400;
     font-style: normal;
+    transform: translateY(60em);
 }
 
 button:active {
