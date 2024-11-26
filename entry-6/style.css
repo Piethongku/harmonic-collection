@@ -19,7 +19,7 @@
 
 
 .pink{
-    color: rgb(247, 97, 122);
+    color: rgb(243, 70, 156);
     font-style: italic;
 }
 
@@ -141,7 +141,7 @@ button {
 
 
 .typewriter p {
-    color: rgb(217, 46, 129);
+    color: rgb(0, 0, 0);
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
