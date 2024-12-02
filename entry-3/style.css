@@ -1,5 +1,7 @@
 .Box{
     margin-top: 10px;
+    justify-content: center;
+    display: flex;
 }
 
 
@@ -13,15 +15,14 @@
 
 .container{
     margin-top: 8px;
-    display: flexbox;
-    width: 100%;
+    width: 40em;
 }
 
 
-.click_me:hover{
+.click_me{
     cursor: pointer;
-
 }
+
 
 .body_flex{
     display: flex;

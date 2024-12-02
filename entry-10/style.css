@@ -9,14 +9,14 @@
 
 
 .h1{
-  font-family: "Homemade Apple", cursive;
+  font-family: "Zeyada", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 5rem;
+  font-size: 9rem;
   justify-content: center;
   justify-items: center;
   align-items: center;
-  margin-left: 40%;
+  margin-left: 35%;
   margin-bottom: 0%;
   margin-top: 30px;
 
@@ -30,6 +30,7 @@
   font-size: 5.5rem;
   justify-content: center;
   margin-left: 30%;
+  line-height: 25px;
   padding-top: 0%;
   transform: translateY(-3rem);
   

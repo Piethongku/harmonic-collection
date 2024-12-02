@@ -50,20 +50,20 @@
 
 
 .h1{
-  font-family: "Homemade Apple", cursive;
+  font-family: "Zeyada", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 8rem;
+  font-size: 11rem;
   transform: translateY(3rem) translateX(6rem);
 }
 
 
 .h2{
-  font-family: "Homemade Apple", cursive;
+  font-family: "Zeyada", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 7rem;
-  transform: translateY(12rem) translateX(-24rem);
+  font-size: 12rem;
+  transform: translateY(10rem) translateX(-20rem);
 
 }
 
@@ -73,7 +73,7 @@
   font-weight: 400;
   font-style: normal;
   font-size: 4rem;
-  margin-top: 17%;
+  margin-top: 10%;
   margin-left: 30%;
 }
 
