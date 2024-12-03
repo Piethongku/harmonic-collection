@@ -1,10 +1,8 @@
 .difficulty{
-    font-family: "Archivo Narrow", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 2rem;
-  }
+  width: 30%;
+  margin-top: 2%;
+  margin-bottom: 0;
+}
 
 
 

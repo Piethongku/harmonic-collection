@@ -1,10 +1,4 @@
-.difficulty{
-    font-family: "Archivo Narrow", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 2rem;
-  }
+
 
 
 
@@ -113,7 +107,7 @@ img{
   height: 450px;
 	opacity:0;
 	cursor: e-resize;
-
+}
 
 
 
@@ -141,5 +135,3 @@ button:active {
     box-shadow: none;
     transform: translateY(2.5px);
 }
-
-
