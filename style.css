@@ -33,7 +33,7 @@
     font-size: 1.4rem;
     align-items: center;
     justify-items: center;
-    margin-top: 2px;
+    margin-top: -1em;
 
 }
 
@@ -49,7 +49,7 @@
   justify-content: center;
   align-items: center;
   margin-left: 43%;
-  margin-top: 10%;
+  margin-top: 18em;
 }
 
 .scope span {
@@ -60,7 +60,7 @@
   height: 100%;
   transform-origin: center;
   transform-style: preserve-3d;
-  transform: rotateY(calc(var(--i) * 45deg)) translateZ(380px); 
+  transform: rotateY(calc(var(--i) * 40deg)) translateZ(380px); /* 360 / 9 = 40 */
 }
 
 .scope span img {
@@ -109,7 +109,8 @@
     align-items: center;
     justify-items: center;
     margin-left: 5%;
-    margin-top: 0%;
+    margin-top: -3em;
+    margin-bottom: 5em;
     padding: 0%;
 
 }
@@ -137,7 +138,7 @@
     font-size: 3.5rem;
     align-items: center;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 1em;
     position: absolute;
     animation-name: run linear infinite;
     animation-duration: 6s;
@@ -220,7 +221,7 @@
     font-weight: 400;
     font-style: normal;
     font-size: 1.4rem;
-    margin-top: 25%;
+    margin-top: 25em;
     padding-left: 4%;
     padding-right: 4%;
 
@@ -249,18 +250,21 @@
 
 
 button{
-  padding: 15px 25px;
+  padding: 5px 25px;
   font-size: 18px;
   cursor: pointer;
   border: none;
-  border-radius: 15px;
+  border-radius: 50px;
   outline: none;
-  background: aliceblue;
-  color: black;
+  background: rgb(14, 14, 14);
+  opacity: 80%;
+  color: rgb(248, 243, 243);
   box-shadow: 10px rgb(10, 11, 12) translateY(2.5px);
-  font-family: "Walter Turncoat", cursive;
+  font-family: "Nanum Pen Script", cursive;
   font-weight: 400;
-  font-style: normal;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin-top: 5em;
 }
 
 button:active {
